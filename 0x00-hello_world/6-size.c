@@ -8,9 +8,9 @@
  * Return: ends the function
  */
 
-int main(void)
+int main()
 {
-	printf("%lu", sizeof(char));
-
+	int a;
+	printf("size of a char is:%d bytes(s)", sizeof(a);
 	return (0);
 }
