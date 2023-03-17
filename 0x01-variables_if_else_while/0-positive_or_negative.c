@@ -20,19 +20,19 @@ int main(void)
 
 if (n > 0)
 {
-	printf("n: is positive");
+	printf("n is positive");
 }
 
 else if (n < 0)
 
 {
-	printf("n: is negative\n");
+	printf("n is negative\n");
 }
 
 else if (n == 0)
 
 {
-	printf("n: is zero\n");
+	printf("n is zero\n");
 }
 
 	return (0);
