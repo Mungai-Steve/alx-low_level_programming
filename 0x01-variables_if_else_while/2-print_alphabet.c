@@ -5,11 +5,16 @@
  * Return: program end
  */
 
-int main()
+int main(void)
+
 {
-    char c;
-    for (c = 'A'; c <= 'Z'; ++c)
-        printf("%c ", c);
-    return 0;
+
+	int ch;
+
+for (ch = 'a'; ch <= 'z'; ch++)
+
+	putchar(ch);
+
+	return (0);
 }
 
