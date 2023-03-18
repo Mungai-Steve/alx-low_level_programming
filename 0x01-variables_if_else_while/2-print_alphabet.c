@@ -9,10 +9,10 @@ int main(void)
 
 {
 	char x = 1;
-for (x = 1; x <= 26; ++x)
+for (a = 1; a <= 25; ++a)
 
 {
-	putchar(x);
+	putchar(a);
 
 }
 	return (0);
