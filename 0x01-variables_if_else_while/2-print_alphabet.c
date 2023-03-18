@@ -9,11 +9,12 @@ int main(void)
 
 {
 	char a = 1;
-while (a <= 28; ++a)
+while (a <= 28)
+      
 
 {
 	putchar(a);
-
+	++a;
 }
 	return (0);
 
