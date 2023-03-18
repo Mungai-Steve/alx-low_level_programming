@@ -2,20 +2,14 @@
 /**
  * main - program start
  *
- * Return: program stop
+ * Return: program end
  */
 
-int main(void)
-
+int main()
 {
-	char a = 1;
-while (a <= 28)
-      
-
-{
-	putchar(a);
-	++a;
+    char c;
+    for (c = 'A'; c <= 'Z'; ++c)
+        printf("%c ", c);
+    return 0;
 }
-	return (0);
 
-}
