@@ -9,7 +9,7 @@ int main(void)
 
 {
 	char a = 1;
-for (a = 1; a <= 28; ++a)
+while (a <= 28; ++a)
 
 {
 	putchar(a);
