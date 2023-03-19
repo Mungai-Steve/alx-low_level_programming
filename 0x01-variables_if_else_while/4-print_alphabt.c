@@ -11,21 +11,29 @@
 int main(void)
 
 {
-	char ch;
+	char ch, q, e;
+
+	q = 'q';
+
+	e = 'e';
 
 
 	for (ch = 'a'; ch <= 'z'; ch++)
+
+	if (ch != q && ch != e)
 
 {
 	putchar(ch);
 
 }
+
+
 {
 
 	putchar('\n');
 
 
-}	
+}
 
 	return (0);
 }
