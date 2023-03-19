@@ -25,5 +25,9 @@ int main(void)
 	putchar('\n');
 
 }
+{
+	tr -d [:q, e:]
+}	
+
 	return (0);
 }
