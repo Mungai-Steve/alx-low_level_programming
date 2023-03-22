@@ -2,15 +2,26 @@
 
 /**
  * _abs - checks the absolute value of n
- *@r: integer to be calculated
+ *@c: integer to be calculated
  * Return: ends program
  */
 
-int _abs(int r)
-{
-{
-	_abs(r);
+int _abs(int c)
 
+{
+
+	if (c < 0)
+
+{
+
+	int abs_val;
+
+	abs_val = c * -1;
+
+	return (abs_val);
 }
-	return (0);
+
+
+	return (c);
+
 }
