@@ -8,7 +8,10 @@
 
 int _abs(int r)
 {
+	int x = _abs(r);
+{
 
-	return (_abs(r));
-
+	_putchar(x);
+}
+	return (0);
 }
