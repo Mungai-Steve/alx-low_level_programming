@@ -14,11 +14,5 @@ int add(int i, int j)
 
 	n = (i + j);
 
-{
-
-	_putchar(n);
-
-}
-
-	return (0);
+	return (n);
 }
