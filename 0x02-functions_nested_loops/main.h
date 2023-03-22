@@ -6,3 +6,4 @@ int print_last_digit(int);
 int _isalpha(int c);
 int print_sign(int n);
 int _abs(int);
+void jack_bauer(void);
