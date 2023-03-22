@@ -1,17 +1,23 @@
 #include "main.h"
 
-/** 
+/**
  * print_last_digit - print last digit
+ *
+ * @c: integer to be computed
+ *
+ * Return: program ends
  */
 
-int print_last_digit(int)
 
-	int j;
+int print_last_digit(int c)
+{
 
-	digit = j%10;
+	int digit;
 
-	print_last_digit('%d', digit)
-
+	digit = c % 10;
+{
+	_putchar(digit);
+}
 	return (0);
 }
 
