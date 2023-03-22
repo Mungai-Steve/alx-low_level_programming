@@ -20,5 +20,5 @@ int add(int i, int j)
 
 }
 
-	return (n);
+	return (0);
 }
