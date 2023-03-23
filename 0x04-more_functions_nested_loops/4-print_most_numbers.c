@@ -8,16 +8,18 @@
 void print_most_numbers(void)
 
 {
-	char *str = "1356789";
+	int i;
 
-	while (*str)
+	for (i = '0'; i <= '9'; i++)
+	
+	if (i != '2' && i != '4')
+	
 	{
-		_putchar(*str);
-
+		_putchar(i);
+	
+	}
+	{
 		_putchar('\n');
 	}
-		++*str;
 
 }
-
-
