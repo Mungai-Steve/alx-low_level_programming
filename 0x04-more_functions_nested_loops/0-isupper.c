@@ -2,7 +2,7 @@
 
 /**
  * _isupper - check if c is upper
- * 
+ *
  * @c: character to be checked
  *
  * Return: program ends
