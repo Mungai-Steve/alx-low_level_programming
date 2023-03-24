@@ -3,7 +3,7 @@
 /**
  * print_square - print a square using #
  *
- * size: length/width of qsquare
+ * @size: length/width of qsquare
  *
  */
 
@@ -20,15 +20,15 @@ void print_square(int size)
 	}
 
 	for (y = 0; y < size; y++)
-	
+
 	{
-	
+
 	for (x = 0; x < size; x++)
-	
+
 
 	_putchar(35);
-	
-	
+
+
 	_putchar('\n');
 	}
 }
