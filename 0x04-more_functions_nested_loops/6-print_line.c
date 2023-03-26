@@ -10,6 +10,7 @@ void print_line(int n)
 
 {
 	int y;
+
 	if (n <= 0)
 	{
 	_putchar('\n');
@@ -24,6 +25,5 @@ void print_line(int n)
 	_putchar('\n');
 	}
 	}
-	
 
 }
