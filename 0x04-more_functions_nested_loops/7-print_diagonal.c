@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * @n: integer
- * print_diagonal - print diagonal line
+ * print_diagonal  -  print diagonal line
+ * @n:  number oftimes \ is printed
  */
 
 void print_diagonal(int n)
@@ -20,7 +20,7 @@ void print_diagonal(int n)
 	for (i = 0; i < n; i++)
 	{
 	for (j = 0; j < i; j++)
-	
+
 	{
 	_putchar(32);
 	}
