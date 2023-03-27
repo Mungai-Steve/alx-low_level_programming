@@ -1,11 +1,13 @@
 #include "main.h"
 
 /**
- * swap_in: - swaps the value of pointers
+ * swap_int - swaps the value of pointers
  *
- * @a:  points to integer y
+ *@a: variable
  *
- * @b: points to integer x
+ * @b: variable
+ *
+ * description: swaps the variables
  */
 
 void swap_int(int *a, int *b)
@@ -14,6 +16,8 @@ void swap_int(int *a, int *b)
 	int n;
 
 	n = *a;
+
 	*a = *b;
+
 	*b = n;
 }
