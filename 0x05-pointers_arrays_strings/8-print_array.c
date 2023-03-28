@@ -1,14 +1,4 @@
 #include "main.h"
-
-/**
- * print_array - print an array of n characters
- *
- * @a: pointer to the firt element of array
- *
- * @n: number of elemets in array
- */
-void print_array(int *a, int n);
-#include "main.h"
 #include <stdio.h>
 
 /**
@@ -16,20 +6,14 @@ void print_array(int *a, int n);
  * @a: pointer to array
  * @n: number of array element
  */
+
 void print_array(int *a, int n)
 {
-	int i = 0;
-
-	while (i < n)
+	if (n > 0)
 	{
-		printf("%d", *(a + i));
-
-		if (i != n - i)
-
-	{
-		printf(", ");
-		i++;
-	}
+		printf("%d", *a++);
+		while (--n > 0)
+			printf(", %d", *a++);
 	}
 	printf("\n");
 }
