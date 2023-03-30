@@ -1,18 +1,23 @@
 #include <stdio.h>
-#include <string.h>
+#include "main.h"
+/**
+ * _strcat - concatenates two strings
+ * @dest: string 1
+ * @src: string 2
+ */
 
-
-int main(void)
+char *_strcat(char *dest, char *src)
 {
-    char s1[98] = "Hello ";
-    char s2[] = "World!\n";
-    char *ptr;
-
-    printf("%s\n", s1);
-    printf("%s", s2);
-    ptr = strcat(s1, s2);
-    printf("%s", s1);
-    printf("%s", s2);
-    printf("%s", ptr);
-    return (0);
+	int len = 0,i;
+	while (dest[len])
+	{
+		len++;
+	}
+	for (i = 0; src[i] != 0; i++)
+	{
+		dest[len] = src[i];
+		len++;
+	}
+	dest[len] = '\0';
+	return (dest);
 }
