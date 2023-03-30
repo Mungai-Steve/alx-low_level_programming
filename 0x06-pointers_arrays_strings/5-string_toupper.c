@@ -4,7 +4,7 @@
 
 /**
  * string_toupper - change all lower case to upper
- * Return: always zero
+ * Return: str
  * @str: charcter
  */
 char *string_toupper(char *str)
@@ -17,5 +17,5 @@ char *string_toupper(char *str)
 	str[y] -= 32;
 	y++;
 	}
-	return (0);
+	return (str);
 }
