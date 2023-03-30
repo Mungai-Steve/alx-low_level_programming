@@ -4,9 +4,8 @@
 
 /**
  * _strcmp - copy string 2 to string 1
- * @dest: destingation string
- * @src: source string
- * @n: max bytes to be copied
+ * @s1: destingation string
+ * @s2: source string
  * Return: destination string
  */
 int _strcmp(char *s1, char *s2)
@@ -16,5 +15,5 @@ int _strcmp(char *s1, char *s2)
 	s1++;
 	s2++;
 	}
-	return (*s1 = * s2);
+	return (*s1 = *s2);
 }
