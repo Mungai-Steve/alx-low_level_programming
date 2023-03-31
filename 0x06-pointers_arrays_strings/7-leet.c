@@ -1,10 +1,15 @@
 #include <stdio.h>
 #include <string.h>
 #include "main.h"
-
+/**
+ * leet - encode characters in a string
+ * @s: string to be encoded
+ * Return: return encoded string
+ */
 char *leet(char *s)
 {
 	int i = 0;
+
 	for (i = 0; s[i] != '\0'; i++)
 	{
 	if (s[i] == 'a' || s[i] == 'A')
