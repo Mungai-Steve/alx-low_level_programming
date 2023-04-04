@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * int _strspn - function get length of prefix of a string
+ * _strspn - function get length of prefix of a string
  * @s: string prefix
  * @accept: string
  * Return: the length in bytes of the prefix
