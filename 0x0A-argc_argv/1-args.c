@@ -12,6 +12,12 @@
 int main(int argc, char **argv)
 
 {
-		printf("%d\n", argc);
-		return (0);
+	
+	int i;
+	for (i = 0; i < argc; i++)
+	{
+	printf("%d\n", argc);
+	printf("%s\n", argv[i]);
+	}
+	return (0);
 }
