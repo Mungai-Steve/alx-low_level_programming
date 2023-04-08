@@ -14,18 +14,20 @@ int main(int argc, char **argv)
 
 	int k = 1;
 
-	if (argc <= 1)
+	if (argc == 3)
 	{
-	printf("Error\n");
-	return (1);
-	}
-	else
 	for (i = 1; i < argc; i++)
 	{
 	j = atoi(argv[i]);
 	k = k * j;
 	}
 	printf("%d\n", k);
+	}
+	else
+	{
+		printf("Error\n");
+		return (1);
+	}
 
 	return (0);
 }
