@@ -19,10 +19,14 @@ int main(int argc, char *argv[])
 	printf("0\n");
 	return (0);
 	}
+	while (--argc)
+	{
+	++argv;
+	}
 
 	for (i = 1; i < argc; i++)
 	{
-	if (!isdigit(argv[i]))
+	if (!isdigit(argv[i][0]))
 
 	{
 	printf("Error\n");
