@@ -13,6 +13,7 @@ int main(int argc, char **argv)
 	int i = 0;
 	int k = 0;
 	int j;
+
 	if (argc == 1)
 	{
 	printf("0\n");
