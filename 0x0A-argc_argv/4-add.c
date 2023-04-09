@@ -8,7 +8,7 @@
  * Return: 1 if numbers contain non digit, 0 if success
  */
 
-int main(int argc, char **argv)
+int main(int argc, char *argv[])
 {
 	int i = 0;
 	int k = 0;
