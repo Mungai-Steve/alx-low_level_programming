@@ -4,8 +4,8 @@
 #include <string.h>
 /**
  * _calloc - allocates memory to array using malloc
- * @nmemb: size of string
- * @size: size
+ * @nmemb: number of elements to allocate
+ * @size: size of elemnets
  * Return: null or pointer
  */
 
