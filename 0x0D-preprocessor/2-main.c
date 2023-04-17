@@ -1,12 +1,11 @@
 #include <stdio.h>
 /**
  * main - print the name of program
- * @argc: argument count
- * @argv: argument vector
  * Return: 0
  */
-int main() 
+int main(void)
 {
-    printf("%s\n", __FILE__);
-    return 0;
+	printf("%s\n", __FILE__);
+
+	return (0);
 }
