@@ -6,12 +6,19 @@
  * @name: name to be printed
  */
 
-void print_name(char *name, void (*f)(char *))
+void print_name(char *name, void (*f)(char *))	
 {
-	while (f != NULL && name != NULL)
-	{
-		f(name);
-		break;
+	int done = 0;
+
+		while (!done) 
+		{
+		if (name != NULL && f != NULL) 
+		{
+			f(name);
+			done = 1;
+		} else {
+			done = 1;
+			}
 	}
 }
 
